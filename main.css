@@ -1,0 +1,95 @@
+body {
+    background-color: #F2DDDC;
+    font-family: "PT Sans Caption", sans-serif;
+
+}
+
+.layer {
+    content: "";
+    width: 16%;
+    height: 25px;
+    bottom: 85%;
+    background-color: #E3AADD;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+.framy:hover .layer {
+    height: 50px
+}
+
+h1 {
+    bottom: -7.5rem;
+    left: 41%;
+    width: auto;
+    color: #a864ec;
+    left: -3%;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+}
+
+.rect:hover {
+    height: 50px;
+}
+
+.framy2 i {
+    font-size: 22px;
+}
+
+.glow {
+    font-size: 24px;
+    color: #a864ec;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.cont {
+    border-top: 2px #a864ec dotted;
+    border-bottom: 2px #a864ec dotted;
+}
+
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-sans-caption-regular {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+label,
+.container i {
+    color: #a864ec;
+}
+
+.button1 {
+    background-color: #a864ec;
+    color: white;
+    transition: all 0.2s;
+}
+
+.button1:hover {
+    background-color: #8d4fcb;
+    color: white;
+}
+
+.button2{background-color: #E3AADD;}
+.button2:hover{background-color: #c292bd;}
